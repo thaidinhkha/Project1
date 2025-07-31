@@ -16,7 +16,7 @@ export default function ProductDetails() {
   useEffect(() => {
     const fetchDetails = async () => {
       const result = await getProducts();
-      console.log(result)
+      console.log("Nhi khùng")
       setDetails(result);
     };
 
